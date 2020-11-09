@@ -1,24 +1,22 @@
-# Lumen PHP Framework
+# Bookapp (Tugas Pemrograman Integratif)
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+NIM     : 185150707111008  
+Nama    : Azzamuddien Hanifa
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Penjelasan Praktikum
+Pada modul ke-5 ini kami diberikan tugas untuk membuat suatu database MySQL Buku yang mana data-data buku dapat diambil melalui api projek bookapp ini yang dibuat menggunakan framework lumen. berikut apa saja yang sudah dilakukan pada projek ini:
 
-## Official Documentation
+### Pembuatan database dan Environment Setup
+Pada tahap ini, dilakukan pembuatan database MySQL "bookapp_lumen" menggunakan XAMPP dan dilanjutkan dengan penyesuaian data-data pada file .env dengan yang ada pada database.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+### Membuat Migration
+Pembuatan tabel "books" disertai kolom-kolomnya dan tipe data dari setiap kolom tabel pada database "bookapp_lumen" dengan menggunakan perintah migration.
 
-## Contributing
+### Membuat dan Melakukan Seed
+Mengisi tabel "books" pada database "bookapp_lumen" dengan data-data yang disediakan dari modul dan mengisinya pada database/seeders/DatabaseSeeder.php, lalu menggunakan perintah seed agar data-data yang ada pada DatabaseSeeder.php tersimpan pada database.
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Pembuatan Model dan Pemanggilan data melalui model
+Dengan membuat model data-data yang ada pada tabel dapat di definisikan pada program. Kemudian data-data model yang sudah dibuat dapat dipanggil menggunakan controller, agar data-data tersebut dapat ditampilkan pada program.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Fungsi CRUD (Create, Read, Update, Delete)
+Dengan adanya fungsi ini, dapat melakukan pembuatan, pembacaan, pembaruan, dan penghapusan data yang ada di tabel pada database melalui API lumen yang sudah dibuat.
