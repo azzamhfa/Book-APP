@@ -25,11 +25,8 @@ Dengan adanya fungsi ini, dapat melakukan pembuatan, pembacaan, pembaruan, dan p
 
 ## Pembuatan CRUD Authors
 
-### Pembuatan database dan Environment Setup
-Pada tahap ini, dilakukan pembuatan database MySQL "bookapp_lumen" menggunakan XAMPP dan dilanjutkan dengan penyesuaian data-data pada file .env dengan yang ada pada database.
-
 ### Membuat Migration
-Pembuatan tabel "books" disertai kolom-kolomnya dan tipe data dari setiap kolom tabel pada database "bookapp_lumen" dengan menggunakan perintah migration.
+Pembuatan tabel "authos" disertai kolom-kolomnya dan tipe data dari setiap kolom tabel pada database "bookapp_lumen" dengan menggunakan perintah migration.
 
 ### Pembuatan Model dan Pemanggilan data melalui model
 Dengan membuat model data-data yang ada pada tabel dapat di definisikan pada program. Kemudian data-data model yang sudah dibuat dapat dipanggil menggunakan controller, agar data-data tersebut dapat ditampilkan pada program.
